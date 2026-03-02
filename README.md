@@ -7,9 +7,9 @@ Webbsidan ska ha ett modernt användargränssnitt som dynamiskt anpassar hur sid
 * css-fil skapad.
 
 # Innehåll - ska finnas: 
-* Meny ska finnas på alla sidor och innehålla länkar mellan nedan sidor.
-* En välkomstsida
-* En sida som presenterar er grupp och era namn.
+* Meny ska finnas på alla sidor och innehålla länkar mellan nedan sidor. (Angelica)
+* En välkomstsida (Angelica)
+* En sida som presenterar er grupp och era namn. (Angelica)
 * En sida som visar ett antal bilder med rubrik. (Olof)
 * En sida som visar ett antal bilder i tabellform med bild, rubrik och lite beskrivande text samt en knapp som visar detaljer. (Linnea)
-* En sida som visar en hel bild med rubrik och lite beskrivande text
+* En sida som visar en hel bild med rubrik och lite beskrivande text. (Filip)
