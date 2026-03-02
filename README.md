@@ -11,5 +11,5 @@ Webbsidan ska ha ett modernt användargränssnitt som dynamiskt anpassar hur sid
 * En välkomstsida
 * En sida som presenterar er grupp och era namn.
 * En sida som visar ett antal bilder med rubrik. (Olof)
-* En sida som visar ett antal bilder i tabellform med bild, rubrik och lite beskrivande text samt en knapp som visar detaljer. 
+* En sida som visar ett antal bilder i tabellform med bild, rubrik och lite beskrivande text samt en knapp som visar detaljer. (Linnea)
 * En sida som visar en hel bild med rubrik och lite beskrivande text
