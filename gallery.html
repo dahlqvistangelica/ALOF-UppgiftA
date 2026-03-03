@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,86 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
+
 <body>
-    <!-- Kopiera navbar -->
-    
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ALOF-Gruppuppgift</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Hem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Om oss</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="gallery.html">Bilder med rubrik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galleri i tabellform</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="favorite.html">En favoritbild</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <div class="container mt-5">
         <h1>Image Gallery</h1>
         <div class="row mt-4">
             <div class="col-md-4 mb-4">
-                <h5>Image 1</h5>
-                <img src="img/bear.png" class="img-fluid" alt="Image 1">
+                <h5>Bear</h5>
+                <img src="img/bear.png" class="img-fluid gallery-img" alt="Bear">
             </div>
             <div class="col-md-4 mb-4">
-                <h5>Image 2</h5>
-                <img src="img/elephant.png" class="img-fluid" alt="Image 2">
+                <h5>Elephant</h5>
+                <img src="img/elephant.png" class="img-fluid gallery-img" alt="Elephant">
             </div>
             <div class="col-md-4 mb-4">
-                <h5>Image 3</h5>
-                <img src="img/jupiter1.jpg" class="img-fluid" alt="Image 3">
+                <h5>Jupiter 1</h5>
+                <img src="img/jupiter1.jpg" class="img-fluid gallery-img" alt="Jupiter 1">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Jupiter 2</h5>
+                <img src="img/jupiter2.jpg" class="img-fluid gallery-img" alt="Jupiter 2">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Jupiter 3</h5>
+                <img src="img/jupiter3.jpg" class="img-fluid gallery-img" alt="Jupiter 3">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Jupiter 4</h5>
+                <img src="img/jupiter4.png" class="img-fluid gallery-img" alt="Jupiter 4">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Jupiter 5</h5>
+                <img src="img/jupiter5.jpg" class="img-fluid gallery-img" alt="Jupiter 5">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Parrot</h5>
+                <img src="img/parrot.png" class="img-fluid gallery-img" alt="Parrot">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Penguin</h5>
+                <img src="img/penguin.png" class="img-fluid gallery-img" alt="Penguin">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Zebra</h5>
+                <img src="img/zebra.png" class="img-fluid gallery-img" alt="Zebra">
             </div>
         </div>
     </div>
 
     <script src="js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
