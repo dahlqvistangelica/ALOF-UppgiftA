@@ -7,18 +7,14 @@
   width: 3rem;
   height: 3rem;
 }
-<<<<<<< HEAD
-/* .center-Titel{
-=======
 
 .gallery-img {
   width: 100%;
   height: 250px;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
-  background-color: #f8f9fa;
 }
 
 .center-Titel {
->>>>>>> 720c2cd5360232db20510931d080fec4926a9920
   text-align: center;
-} */
+}
