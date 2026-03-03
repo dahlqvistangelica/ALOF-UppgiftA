@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Details</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">ALOF-Gruppuppgift</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Hem</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Om oss</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Bilder med rubrik</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="gallery-table.html">Galleri i tabellform</a></li>
+                        <li class="nav-item"><a class="nav-link" href="favorite.html">En favoritbild</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<main class="container mt-5">
+    <h1 class="mb-4"> Bildgalleri detaljer </h1>   
+    <p class="lead"> Här presenteras bilder med utfällbar information.</p>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/bear.png" class="card-img-top" alt="bear" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Björn</h5> 
+                    <p class="card-text">Det här är en björn</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsBear">Show details</button>
+                    <div class="collapse" id="detailsBear">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Det här är en vit björn som älskar sushi</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/img1.png" class="card-img-top" alt="img1" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Pojke</h5> 
+                    <p class="card-text">En pojke</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg1">Show details</button>
+                    <div class="collapse" id="detailsimg1">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Det här är en liten pojke som läser en bok</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/img2.png" class="card-img-top" alt="img1" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Döden</h5> 
+                    <p class="card-text">Det här är döden</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg2">Show details</button>
+                    <div class="collapse" id="detailsimg2">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Han har kommit för att hämta dig</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+         <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/img3.png" class="card-img-top" alt="img3" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Pojke</h5> 
+                    <p class="card-text">Pojken läser</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg3">Show details</button>
+                    <div class="collapse" id="detailsimg3">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Pojken läste något läskigt och är ledsen.</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+        <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/img4.png" class="card-img-top" alt="img4" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Krokodil</h5> 
+                    <p class="card-text">Eller Arne-alligator?</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg4">Show details</button>
+                    <div class="collapse" id="detailsimg4">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Ett grönt träskmonster kanske</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+        <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/img6.png" class="card-img-top" alt="img6" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Pojken</h5> 
+                    <p class="card-text">Pojken läser fortfarande</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg6">Show details</button>
+                    <div class="collapse" id="detailsimg6">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Pojken fick lite saft och är glad igen.</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+         <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/penguin.png" class="card-img-top" alt="penguin" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Pingvin</h5> 
+                    <p class="card-text">Pengwin? pingwin? </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg7">Show details</button>
+                    <div class="collapse" id="detailsimg7">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Fråga benedict cumberbatch</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+         <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/parrot.png" class="card-img-top" alt="parrot" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Papegoja</h5> 
+                    <p class="card-text">Papegoja lyfter vikter</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg8">Show details</button>
+                    <div class="collapse" id="detailsimg8">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Papegojan vill bli bodybuilder.</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+        <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/elephant.png" class="card-img-top" alt="elephant" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Elefant</h5> 
+                    <p class="card-text">Elefanten äter</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg9">Show details</button>
+                    <div class="collapse" id="detailsimg9">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Elefanten äter banan bland blommor.</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+         <article class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-1x1">
+                <img src="img/zebra.png" class="card-img-top" alt="zebra" style="object-fit: cover;"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Zebra</h5> 
+                    <p class="card-text"> Zebran är glad</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#detailsimg10">Show details</button>
+                    <div class="collapse" id="detailsimg10">
+                        <div class="card card-body mt-2 border-0 p-0">
+                            <hr>
+                            <p class="text-muted small">Zebran dansar runt och är mallig</p>
+                         </div>
+                    </div>
+                </div>
+             </div>
+        </article>
+    </div>
+</main>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
