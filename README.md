@@ -32,3 +32,9 @@ img-fluid för att ha en dynamisk storlek på bilden. rounded och shadow för at
 * Collapse - knappar som fäller ut information under varje bild med unika IDn. 
 * Lekt med olika färger på knappar
 
+### Bilder med rubrik (Gallery)
+* Grid system - Använt Bootstrap row och col-md-4 för att visa 3 bilder per rad på desktop, responsivt anpassat för mindre skärmar.
+* img-fluid - Gör bilderna responsiva och anpassar storleken efter skärmen.
+* gallery-img - Egen CSS-klass med aspect-ratio: 16/9 för enhetliga bildproportioner och object-fit: cover för att fylla utrymmet utan att förvränga bilden.
+* mb-4 - Margin-bottom för jämnt avstånd mellan raderna.
+
