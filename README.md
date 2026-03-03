@@ -21,3 +21,7 @@ Webbsidan ska ha ett modernt användargränssnitt som dynamiskt anpassar hur sid
 * Hero - "Responsive left-aligned hero with image" - Tog bort knapparna som låg under texten. 
 ### Om oss
 * Features with title - Bytt ut iconerna och skrivit våra namn, tog bort knappen under beskrivningstexten för den var onödig. 
+### Favorit bild
+* Text-center för att centrera text. 
+w-75 och mx-auto för att tighta till texten och se till att den alltid är centrerad i kolumnen.
+img-fluid för att ha en dynamisk storlek på bilden. rounded och shadow för att piffa till bilden.
