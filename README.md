@@ -20,4 +20,4 @@ Webbsidan ska ha ett modernt användargränssnitt som dynamiskt anpassar hur sid
 ### Välkomstsida
 * Hero - "Responsive left-aligned hero with image" - Tog bort knapparna som låg under texten. 
 ### Om oss
-* Features with title - Ändrat iconerna och behöver göra fler anpassningar för att det ska se bra ut.. 
+* Features with title - Bytt ut iconerna och skrivit våra namn, tog bort knappen under beskrivningstexten för den var onödig. 
