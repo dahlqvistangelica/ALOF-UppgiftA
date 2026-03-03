@@ -1,4 +1,9 @@
 .bi {
-        vertical-align: -0.125em;
+        
         fill: currentColor;
       }
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
