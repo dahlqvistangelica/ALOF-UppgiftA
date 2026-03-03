@@ -25,3 +25,9 @@ Webbsidan ska ha ett modernt användargränssnitt som dynamiskt anpassar hur sid
 * Text-center för att centrera text. 
 w-75 och mx-auto för att tighta till texten och se till att den alltid är centrerad i kolumnen.
 img-fluid för att ha en dynamisk storlek på bilden. rounded och shadow för att piffa till bilden.
+
+### Tabell
+* Cards - row cols grid för en responsiv och modern tabell. 
+* Ratio & object fit - anpassat bilderna med ratio och object fit för att tvinga alla bilder till samma storlek. 
+* Collapse - knappar som fäller ut information under varje bild med unika IDn. 
+
