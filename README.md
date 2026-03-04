@@ -29,6 +29,5 @@ img-fluid för att ha en dynamisk storlek på bilden. rounded och shadow för at
 ### Gallery-Table
 * Cards - row cols grid för en responsiv och modern tabell. border -0 för att ta bort inre boxen, pd-0 utan indrag.
 * Ratio & object fit - anpassat bilderna med ratio och object fit för att tvinga alla bilder till samma storlek. 
-* Collapse - knappar som fäller ut information under varje bild med unika IDn. 
 * Lekt med olika färger på knappar
 
