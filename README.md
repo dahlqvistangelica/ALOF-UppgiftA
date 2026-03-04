@@ -2,6 +2,12 @@
 Vår uppgift är att från bootstrap exempel bygga en statisk menybaserad html webbsida.
 Webbsidan ska ha ett modernt användargränssnitt som dynamiskt anpassar hur sidan presenteras beroende på skärmstorlek, en så kallad responsiv applikation.
 
+## Gruppmedlemmar:
+* Angelica Dahlqvist
+* Linnea Fernlund
+* Olof Brahm
+* Filip Gidlöf
+
 # Valda byggstenar och anpassningar.
 ### Meny
 * Navbar - Sticky-top, expandable toggler med text-brand. Anpassat med knappliknande utseende (nav-pills).
